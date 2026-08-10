@@ -9,3 +9,12 @@
 >>> print("Perimetro:", perimetro)
 Perimetro: 30
 >>>
+
+>>> input("¿cuantos años tienes? ")
+¿cuantos años tienes? 19
+'19'
+>>> edad = input("¿cuantos años tienes? ")
+¿cuantos años tienes? 19
+>>> dias = int(edad) * 365
+>>> print("Has vivido" + str(dias) + "dias")
+Has vivido6935dias
